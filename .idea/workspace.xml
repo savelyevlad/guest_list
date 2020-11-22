@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c543596f-ea95-426d-832b-3d7b89773a1f" name="Default Changelist" comment="" />
+    <list default="true" id="c543596f-ea95-426d-832b-3d7b89773a1f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +20,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration">
@@ -130,6 +135,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kboXMprl9gNd2IuKyewXlA64pJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -159,7 +165,7 @@
       <workItem from="1605978693865" duration="172000" />
       <workItem from="1605979053424" duration="7202000" />
       <workItem from="1605988987511" duration="22374000" />
-      <workItem from="1606041339543" duration="8070000" />
+      <workItem from="1606041339543" duration="10263000" />
     </task>
     <servers />
   </component>
@@ -175,6 +181,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="124" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738@0.0.1366.738" timestamp="1606048484205" />
+    <state x="561" y="267" width="440" height="204" key="Github.ShareDialog" timestamp="1606051089778">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="561" y="267" width="440" height="204" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1606051089778" />
+    <state x="611" y="87" width="329" height="584" key="Github.UntrackedFilesDialog" timestamp="1606051441815">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="611" y="87" width="329" height="584" key="Github.UntrackedFilesDialog/0.0.1366.738@0.0.1366.738" timestamp="1606051441815" />
     <state x="492" y="92" key="NewPhpClassDialog" timestamp="1606048462211">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
