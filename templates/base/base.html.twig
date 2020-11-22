@@ -1,0 +1,45 @@
+{% apply inline_css(source("base/base_style.css")) %}
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        {#        <link rel="stylesheet" href="base_style.css">#}
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+    {{ include('navigation/navigation.html.twig') }}
+{#    <div class="content">#}
+{#        <p>Hello, {% if username is defined %} {{ username }}   {% endif %}</p>#}
+{#    </div>#}
+
+    {% form_theme form_add_record 'bootstrap_4_horizontal_layout.html.twig' %}
+    {{ form(form_add_record) }}
+
+    <br>
+    <ul id="records">
+        {% for item in records %}
+            <li>
+{#                {% form_theme form_record 'bootstrap_4_layout.html.twig' %}#}
+{#                {{ form(form_record) }}#}
+{#                {{ form_start(form_record) }}#}
+{#                    {{ form_row(form_record.name, {'attr': {'value': {{ item.name }} } }) }}#}
+{#                    {{ form_row(form_record.email) }}#}
+{#                    {{ form_row(form_record.content) }}#}
+{#                    {% if is_granted('ROLE_ADMIN') %}#}
+{#                        {{ form_row(form_record.submit) }}#}
+{#                    {% endif %}#}
+{#                {{ form_end(form_record) }}#}
+                {{ item.name }}, {{ item.email }}: "{{ item.content }}"
+                {% if is_granted('ROLE_ADMIN') %}
+                    <form method="post">
+                        <input type="submit" name="button_delete_{{ item.id }}" value="X" />
+                    </form>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+    {% block body %}{% endblock %}
+    {% block javascripts %}{% endblock %}
+    </body>
+    </html>
+{% endapply %}

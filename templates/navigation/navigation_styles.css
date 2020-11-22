@@ -1,0 +1,30 @@
+nav ul, nav ul li {
+    margin: 0;
+    padding: 0;
+}
+nav ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#menu-horiz li {
+    display: inline-block;
+    padding: 3px 15px 3px 0;
+}
+#menu-horiz a {
+    color: #00f;
+}
+#menu-horiz li {
+    display: inline-block;
+    padding: 3px 15px 3px 0;
+}
+#menu-horiz a {
+    color: #00f;
+}
