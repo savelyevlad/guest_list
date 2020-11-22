@@ -18,3 +18,7 @@ Open terminal, move into the project directory (e.g. Git Bash Here in Windows co
 symfony server:start
 ```
 Open your browser and navigate to <a href="http://localhost:8000/">http://localhost:8000/</a>. If everything is working, you’ll see a welcome page. Later, when you are finished working, stop the server by pressing Ctrl+C from your terminal.
+# Additional
+The view is quite naive and understandable <br>
+<b>Login</b>: kek<br>
+<b>Password</b>: 12345678
